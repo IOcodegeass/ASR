@@ -1,0 +1,7 @@
+						Week 1 :
+	
+Installed HTK(Hidden Markov Model Toolkit) and extracted TIMIT Database using SoX toolkit.The provided .wav files using Sox and suitable features(Sampling Rate : 160000,#channels : 2) is converted and stored in strucure . This structure is same as mentioned in TIMIT.The directory structure is copied using Pipelining and storing structure in out1.txt, out2.txt ... out8.txt.
+
+Using 'find' command all the .wav extension files are extracted and stored in execute.txt.This execute.txt is then processed using sox2wav2sox.sh .locate_wav.txt contains location of .wav files and locate_mfcc.txt contains location of .mfc files.These are then appended in codetr.txt.
+
+Codetr.txt is then processed using  
